@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+	user-select: none;
+	background: none;
+	overflow-y: hidden;
+}
+
+#background {
+	visibility: hidden;
+	position: absolute;
+	height: 100px;
+	width: 450px;
+	background-color: grey;
+	top: 20px;
+	left: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 3px rgb(75, 75, 75);
+}
+
+#activeCallsMenu {
+	width: 150px;
+	height: 30px;
+	background-color: none;
+	border-radius: 15px;
+	font-weight: 700;
+	box-shadow: 0px 3px rgba(0,0,0,0.5);
+}
+
+.alignment {
+	top: 30px;
+	left: 20px;
+	position: absolute;
+}
+
+#scanCallsButton {
+	background-color: white;
+	border: 0;
+	border-radius: 15px;
+	padding: 10px;
+	box-shadow: 0px 3px rgba(0,0,0,0.5);
+	font-size: 16px;
+	font-weight: 700;
+}
+#scanCallsButton:active {
+	box-shadow: 0px -3px 3px 0px rgba(0,0,0,1) inset;
+}
+
+#connectCallButton {
+	background-color: green;
+	border: 0;
+	border-radius: 15px;
+	padding: 10px;
+	box-shadow: 0px 3px rgba(0,0,0,0.5);
+	font-size: 16px;
+	font-weight: 700;
+}
+#connectCallButton:active {
+	box-shadow: 0px -3px 3px 0px rgba(0,0,0,1) inset;
+}
+
+#disconnectCallButton {
+	background-color: red;
+	border: 0;
+	border-radius: 15px;
+	padding: 10px;
+	box-shadow: 0px 3px rgba(0,0,0,0.5);
+	font-size: 16px;
+	font-weight: 700;
+}
+#disconnectCallButton:active {
+	box-shadow: 0px -3px 3px 0px rgba(0,0,0,1) inset;
+}
+
+#detail {
+	top: 10px;
+	left: 25px;
+	position: absolute;
+	font-size: 12px;
+	font-weight: 700;
+}
